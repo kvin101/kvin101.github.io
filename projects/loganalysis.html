@@ -62,7 +62,7 @@
                 style="max-width: 100%; height: auto; display: block; margin: 0 auto 20px auto;">
               <p>
                 I developed a Python web application that revolutionizes log management for application servers. With
-                this application, users can seamlessly view
+                this application, developers can seamlessly view
                 logs directly in their browser without the need to login to servers. The application automatically
                 formats JSON content for enhanced readability,
                 simplifying the understanding of log entries.
@@ -100,6 +100,40 @@
                   performance.
                 </li>
               </ul>
+              <h3>Journey:</h3>
+                <p>First basic version of this application was created which reads all the log files every time and then sends all the logs
+                in the form of a html page without any search functionality.</p>
+                <ul>
+                  <li>
+                    <strong>Feature-1: </strong>Added search functionality, by adding this feature developers can easily search for the desired log message.
+                    This helps in analyzing QA tickets or Integration testing.
+                  </li>
+                  <li>
+                    <strong>Feature-2: </Strong>Auto refresh of logs, with this feature developers will see latest logs without refreshing again and again.
+                  </li>
+                  <li>
+                    <strong>Feature-3: </strong>Copy button in message box helps users to directly copy log message and use it for further analysis.
+                  </li>
+                  <li>
+                    <strong>Feature-4: </strong>Performance Optimization, I observed that loading all the logs at a time into a single page takes a lot of
+                    time and bandwidth so I implemented pagination feature which will show required no
+                    of logs set by user or default number of logs by doing so page loading times decreased a lot and with the help of
+                    navigation buttons or users can directly enter page number which they wanted to see and
+                    check the logs of that page.
+                  </li>
+                  <li>
+                    <strong>Feature-5: </strong>Multiple text search, users can search for multiple texts seperated by a delimiter and all the matching logs will be displayed.
+                  </li>
+                  <li>
+                    <strong>Feature-6: </strong>Json requests or responses will be formated in json format and displayed in json format which is easy to
+                    read and understand. (Request/Response is generally not formatted in log files with this it is easy to understand)
+                  </li>
+                  <li>
+                    <strong>Feature-7: </strong>Application status, with this feature if someone restarts the application all the users who are using log
+                    application will be able to see the application status whether it is Active or Inactive.
+                  </li>
+                </ul>
+              </p>
               <p>
                 With these advanced features, my Python web application simplifies log management for users, enhancing their
                 productivity and efficiency in monitoring application behavior.

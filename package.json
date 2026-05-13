@@ -1,0 +1,12 @@
+{
+  "name": "kvin101-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete' && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
